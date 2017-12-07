@@ -5,10 +5,11 @@ import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
 @Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2017-12-07T20:17:43")
-@StaticMetamodel(TipoCliente.class)
-public class TipoCliente_ { 
+@StaticMetamodel(Funcionario.class)
+public class Funcionario_ { 
 
-    public static volatile SingularAttribute<TipoCliente, String> name;
-    public static volatile SingularAttribute<TipoCliente, Long> id;
+    public static volatile SingularAttribute<Funcionario, String> name;
+    public static volatile SingularAttribute<Funcionario, String> cpf;
+    public static volatile SingularAttribute<Funcionario, Long> id;
 
 }

@@ -20,11 +20,11 @@ public class Init {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory(PERSISTENCE_UNIT_NAME);
         FornecedorDAO dao = new FornecedorDAO(factory);
        
-        userAuthenticateTest("senna@gmail.com", "prostviadinho@soutrimasnaoroubei");
-        userAuthenticateTest("prost3@gmail.com", "sennaviadinho@soutetracampeao"); 
+        //userAuthenticateTest("senna@gmail.com", "prostviadinho@soutrimasnaoroubei");
+        //userAuthenticateTest("prost3@gmail.com", "sennaviadinho@soutetracampeao"); 
         
-        findAllUser();
-        System.out.println(listarCliente());        
+        //findAllUser();
+        //System.out.println(listarCliente());        
         
         
 //                Fornecedor o = new Fornecedor();
