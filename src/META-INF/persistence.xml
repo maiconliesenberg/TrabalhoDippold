@@ -8,6 +8,7 @@
     <class>org.ftd.educational.catolica.prog4.entities.Fornecedor</class>
     <class>org.ftd.educational.catolica.prog4.entities.Funcionario</class>
     <class>org.ftd.educational.catolica.prog4.daos.FornecedorDAO</class>
+    <class>org.ftd.educational.catolica.prog4.entities.Produto</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/prog4?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
